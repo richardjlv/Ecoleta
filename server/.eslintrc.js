@@ -26,6 +26,9 @@ module.exports = {
         groups: ['module', '/^@shared/', ['parent', 'sibling', 'index']],
         alphabetize: { order: 'asc', ignoreCase: true }
       }
-    ]
+    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-member-accessibility': 'off',
+    'space-before-function-paren': ['error', 'never']
   }
 }
